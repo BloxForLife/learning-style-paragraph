@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Different Learning Styles &amp; How We Learn</title>
+  <meta name="description" content="A short paragraph on learning styles and how memory actually works, with interactive notes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <p class="eyebrow">A short read, about 2 minutes</p>
+    <h1>Different Learning Styles<br><span class="amp">&amp;</span> How We Learn</h1>
+    <p class="lede">Tap any <mark class="demo">highlighted word</mark> in the paragraph to see what it means.</p>
+  </header>
+
+  <main>
+
+    <!-- THE PARAGRAPH -->
+    <section class="paragraph-wrap" aria-labelledby="para-title">
+      <h2 id="para-title" class="visually-hidden">The paragraph</h2>
+
+      <p class="paragraph">
+        People often say they learn best in one particular way. The most popular model, called
+        <button class="term" data-key="vark">VARK</button>, sorts learners into four styles:
+        <button class="term" data-key="visual">visual</button> learners, who prefer diagrams, charts and colour;
+        <button class="term" data-key="auditory">auditory</button> learners, who remember what they hear in discussions and explanations;
+        <button class="term" data-key="reading">reading and writing</button> learners, who like notes, lists and textbooks; and
+        <button class="term" data-key="kinaesthetic">kinaesthetic</button> learners, who understand things by doing, building and moving.
+        Most of us have a favourite, and it is useful to know what it is, because it tells us how we like to take information in.
+        However, scientists who have tested this idea found something surprising: teaching someone only in their
+        &ldquo;style&rdquo; does not actually make them learn more. What really matters is how the brain builds memory.
+        Learning happens in three steps: we <button class="term" data-key="encode">encode</button> new information by paying attention to it,
+        we <button class="term" data-key="store">store</button> it by connecting it to things we already know, and we strengthen it every
+        time we <button class="term" data-key="retrieve">retrieve</button> it from memory. That is why the methods that work for everyone
+        are the same: <button class="term" data-key="spacing">spreading practice out</button> over days instead of cramming,
+        <button class="term" data-key="testing">testing yourself</button> instead of re-reading, mixing pictures with words, and getting
+        enough <button class="term" data-key="sleep">sleep</button> so the brain can file what it learned. In other words, your learning
+        style is your preference, but good learning habits are what truly help you learn.
+      </p>
+
+      <aside class="spotlight" id="spotlight" aria-live="polite">
+        <div class="spotlight-icon" id="spotlight-icon" aria-hidden="true"></div>
+        <div>
+          <p class="spotlight-title" id="spotlight-title">Pick a word</p>
+          <p class="spotlight-body" id="spotlight-body">Each highlighted word opens a short note here.</p>
+        </div>
+      </aside>
+    </section>
+
+    <!-- THE FOUR STYLES -->
+    <section class="styles" aria-labelledby="styles-title">
+      <h2 id="styles-title">The four styles in VARK</h2>
+      <p class="section-intro">Everyone leans towards one or two. None of them is better than the others.</p>
+
+      <div class="card-grid">
+        <article class="card" data-style="visual">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Visual</h3>
+          <p>Likes diagrams, colour, maps and charts. Remembers where things were on the page.</p>
+          <p class="tip"><strong>Try:</strong> turn your notes into a mind map.</p>
+        </article>
+
+        <article class="card" data-style="auditory">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10v4a2 2 0 0 0 2 2h2l5 4V4L7 8H5a2 2 0 0 0-2 2Z"/><path d="M16 9a4 4 0 0 1 0 6"/><path d="M19 6.5a8 8 0 0 1 0 11"/></svg>
+          </div>
+          <h3>Auditory</h3>
+          <p>Remembers explanations, discussions and rhythm. Talks ideas through.</p>
+          <p class="tip"><strong>Try:</strong> explain the topic out loud to someone.</p>
+        </article>
+
+        <article class="card" data-style="reading">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4Z"/><path d="M20 4h-7a3 3 0 0 0-3 3v13a2 2 0 0 1 2-2h8Z"/></svg>
+          </div>
+          <h3>Reading &amp; writing</h3>
+          <p>Likes lists, definitions and textbooks. Learns by writing it down in their own words.</p>
+          <p class="tip"><strong>Try:</strong> rewrite the lesson as ten bullet points.</p>
+        </article>
+
+        <article class="card" data-style="kinaesthetic">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V12"/><path d="M11 11.5V4.5a1.5 1.5 0 0 1 3 0V12"/><path d="M14 11.5V6.5a1.5 1.5 0 0 1 3 0V13"/><path d="M17 12.5V9.5a1.5 1.5 0 0 1 3 0V15a7 7 0 0 1-7 7h-1a7 7 0 0 1-6-3.4L3.3 14a1.6 1.6 0 0 1 2.6-1.8L8 14"/></svg>
+          </div>
+          <h3>Kinaesthetic</h3>
+          <p>Understands by doing: building, moving, experimenting, taking things apart.</p>
+          <p class="tip"><strong>Try:</strong> act it out or build a model.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HOW MEMORY WORKS -->
+    <section class="memory" aria-labelledby="memory-title">
+      <h2 id="memory-title">What the brain actually does</h2>
+      <p class="section-intro">Whatever your preference, every memory goes through the same three steps.</p>
+
+      <ol class="pipeline">
+        <li class="step">
+          <span class="step-num">1</span>
+          <h3>Encode</h3>
+          <p>Pay attention. If you weren't really listening, nothing goes in.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">2</span>
+          <h3>Store</h3>
+          <p>Connect the new idea to something you already know, so it has a place to live.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">3</span>
+          <h3>Retrieve</h3>
+          <p>Pull it back out. Every time you do, the memory gets stronger.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- WHAT WORKS FOR EVERYONE -->
+    <section class="habits" aria-labelledby="habits-title">
+      <h2 id="habits-title">Habits that work for everyone</h2>
+      <ul class="habit-list">
+        <li>
+          <h3>Space it out</h3>
+          <p>Three short sessions on different days beat one long cram the night before.</p>
+        </li>
+        <li>
+          <h3>Test yourself</h3>
+          <p>Close the book and try to recall it. Re-reading feels easier, but it fools you.</p>
+        </li>
+        <li>
+          <h3>Mix pictures with words</h3>
+          <p>A sketch next to a sentence gives your brain two ways back to the idea.</p>
+        </li>
+        <li>
+          <h3>Sleep</h3>
+          <p>Your brain files the day's learning while you sleep. Skip it and the files get lost.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- MINI QUIZ -->
+    <section class="quiz" aria-labelledby="quiz-title">
+      <h2 id="quiz-title">Which way do you lean?</h2>
+      <p class="section-intro">Four quick questions. It shows your preference, not how well you learn.</p>
+
+      <form id="quiz-form" class="quiz-form">
+        <fieldset>
+          <legend>1. You get a new board game. You'd rather&hellip;</legend>
+          <label><input type="radio" name="q1" value="visual" required> Look at the pictures and diagrams in the rules</label>
+          <label><input type="radio" name="q1" value="auditory"> Have someone explain it to you</label>
+          <label><input type="radio" name="q1" value="reading"> Read the rulebook start to finish</label>
+          <label><input type="radio" name="q1" value="kinaesthetic"> Just start playing and figure it out</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>2. Revising for a test, you usually&hellip;</legend>
+          <label><input type="radio" name="q2" value="visual" required> Draw charts or colour-code your notes</label>
+          <label><input type="radio" name="q2" value="auditory"> Say the facts out loud or listen to recordings</label>
+          <label><input type="radio" name="q2" value="reading"> Rewrite your notes neatly</label>
+          <label><input type="radio" name="q2" value="kinaesthetic"> Walk around while you revise, or use flashcards you can move</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>3. Someone gives you directions. You remember them best if&hellip;</legend>
+          <label><input type="radio" name="q3" value="visual" required> You see a map</label>
+          <label><input type="radio" name="q3" value="auditory"> They tell you the turns</label>
+          <label><input type="radio" name="q3" value="reading"> They write the street names down</label>
+          <label><input type="radio" name="q3" value="kinaesthetic"> You've walked the route once already</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>4. In class, the part you remember a week later is&hellip;</legend>
+          <label><input type="radio" name="q4" value="visual" required> The slide with the picture on it</label>
+          <label><input type="radio" name="q4" value="auditory"> The story the teacher told</label>
+          <label><input type="radio" name="q4" value="reading"> The definition you copied down</label>
+          <label><input type="radio" name="q4" value="kinaesthetic"> The experiment you did with your hands</label>
+        </fieldset>
+
+        <button type="submit" class="btn">Show my result</button>
+      </form>
+
+      <div class="result" id="quiz-result" hidden>
+        <p class="result-label">You lean towards</p>
+        <p class="result-style" id="result-style"></p>
+        <p class="result-body" id="result-body"></p>
+        <p class="result-note">Remember: that's your <em>preference</em>. Spacing, self-testing and sleep still do the heavy lifting.</p>
+        <button type="button" class="btn btn-ghost" id="quiz-reset">Try again</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Made for class &middot; 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
